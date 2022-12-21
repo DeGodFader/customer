@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodyDash</title>
+    <link rel="stylesheet" href="tools/bootstrap.css">
+    <link rel="stylesheet" href="tools/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="tools/style.css">
+
+</head>
+<body class="bg-white">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-wight">
+            <div class="container-fluid py-0">
+              <a class="navbar-brand" href=""><img src="images/logo.jpg" alt="" class="rounded" height="45px" width="80px"></a>
+              <div class="btn-lg">
+               <a href="cart/" class="text-decoration-none">
+                    <div class="btn btn-lg p-0 pb-3"> <i class="bi bi-cart-fill w-100 h-1000 text-main"></i></div>
+               </a>
+                <button class="navbar-toggler pt-2 border-0 p-0"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="bi bi-three-dots-vertical fs-1"></span>
+                  </button>
+                </div>
+              <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+              </div> -->
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid m-1">
+        <form action="" class="form">
+            <div class="container">
+                <div class="border border-rounded input-group">
+                    <span class="input-group-text bg-white border-0" id="basic-addon1"><i class="bi bi-search"></i></span>
+                <input type="text" class="form-control border-0" placeholder="Search your favorite restaurant">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container-fluid my-3 py-2">
+        <div class="text-main h4 fw-bold px-2">
+            Today's Specials
+        </div>
+        <div class="container-fluid  rounded rounded-md  p-2">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/food1.jpeg" alt="" class="w-100 rounded rounded-lg" style="height: 180px; ">
+                    <div class="special text-main h3 fw-bolder">
+                        Restaurant Name &ensp;
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="images/food2.jpg" alt="" class="w-100 rounded rounded-lg" style="height: 180px; ">
+                    <div class="special text-main h3 fw-bolder">
+                        Restaurant Name &ensp;
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="images/food3.jpeg" alt="" class="w-100 rounded rounded-lg" style="height: 180px; ">
+                    <div class="special text-main h3 fw-bolder">
+                        Restaurant Name &ensp;
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star-fill gold"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid my-2 py-2">
+        <div class="text-main h4 fw-bold px-2">
+            Visit Restaurant
+        </div> 
+        <div class="container">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="15000">
+                   <div class="row">
+                    <div class="col-6">
+                        <a href="restaurant/" class="text-decoration-none text-dark">
+                            <div class="card border-0 p-3">
+                                <div class="d-flex align-items-center my-2 justify-contents-center" >
+                                    <img src="images/resto-1.jpg" class="d-block resto-image rounded-circle rounded-5 border border-4" style="margin: auto auto;" alt="...">
+                                </div>
+                                <div class="text-center">
+                                    <div class="h4 fw-bold my-1"> G & G</div>
+                                    <div class="my-1">
+                                        <i class="bi bi-star-fill gold"></i>
+                                        <i class="bi bi-star-fill gold"></i>
+                                        <i class="bi bi-star-fill gold"></i>
+                                        <i class="bi bi-star-fill gold"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="restaurant/" class="text-decoration-none text-dark">
+                            <div class="card border-0 p-3">
+                                <div class="d-flex align-items-center my-2 justify-contents-center">
+                                    <img src="images/resto-2.jpg" class="d-block resto-image rounded-circle rounded-5 border border-4" style="margin: auto auto;" alt="...">
+                                </div>
+                                <div class="text-center">
+                                    <div class="h4 fw-bold my-1"> Berjuit</div>
+                                    <div class="my-1">
+                                        <i class="bi bi-star-fill gold"></i>
+                                        <i class="bi bi-star-fill gold"></i>
+                                        <i class="bi bi-star-fill gold"></i>
+                                        <i class="bi bi-star-half gold"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                   </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="15000">
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="restaurant/" class="text-decoration-none text-dark">
+                                <div class="card border-0 p-3">
+                                    <div class="d-flex align-items-center my-2 justify-contents-center" >
+                                        <img src="images/resto-3.jpg" class="d-block resto-image rounded-circle rounded-5 border border-4" style="margin: auto auto;" alt="...">
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="h4 fw-bold my-1">Forks</div>
+                                        <div class="my-1">
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="restaurant/" class="text-decoration-none text-dark">
+                                <div class="card border-0 p-3">
+                                    <div class="d-flex align-items-center my-2 justify-contents-center">
+                                        <img src="images/resto-4.jpeg" class="d-block resto-image rounded-circle rounded-5 border border-4" style="margin: auto auto;" alt="...">
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="h4 fw-bold my-1"> Njieforbi</div>
+                                        <div class="my-1">
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                       </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="15000">
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="restaurant/" class="text-decoration-none text-dark">
+                                <div class="card border-0 p-3">
+                                    <div class="d-flex align-items-center my-2 justify-contents-center" >
+                                        <img src="images/resto-5.jpg" class="d-block resto-image rounded-circle rounded-5 border border-4" style="margin: auto auto;" alt="...">
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="h4 fw-bold my-1"> G & G</div>
+                                        <div class="my-1">
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="restaurant/" class="text-decoration-none text-dark">
+                                <div class="card border-0 p-3">
+                                    <div class="d-flex align-items-center my-2 justify-contents-center">
+                                        <img src="images/resto-2.jpg" class="d-block resto-image rounded-circle rounded-5 border border-4" style="margin: auto auto;" alt="...">
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="h4 fw-bold my-1"> Berjuit</div>
+                                        <div class="my-1">
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star-fill gold"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                       </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid my-2 py-2">
+        <div class="text-main h4 fw-bold px-2">
+            Explore
+        </div>
+        <div class="row">
+            <div class="col-6 my-2 px-3">
+                <a href="food/" class="text-decoration-none text-dark row">
+                    <div class="card shadow pt-0 pb-3 px-1">
+                        <div class="rounded w-100 h-100">
+                            <img src="images/food1.jpeg" alt="" class="food-img rounded">
+                        </div>
+                    <div class="px-2">
+                            <div class="row">
+                                <div class="col-9 fw-bold">
+                                    <small>Fufu and soup</small>
+                                    
+                                </div>
+                                <div class="col-3">
+                                    <i class="bi bi-suit-heart w-100 h-100"></i>
+                                </div>
+                            </div>
+                            <div class="fw-bold text-main">
+                                G & G
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class=" d-flex align-items-center pl-5 h2"><i class="bi bi-chat"></i></div>
+                                <div class=""><button class="btn btn-sm btn-success" href="food/index.html">Order</button></div>
+                            </div>
+                    </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 my-2 px-3">
+                <a href="food/" class="text-decoration-none text-dark row">
+                <div class="card shadow pt-0 pb-3 px-1">
+                    <div class="rounded w-100 h-100">
+                        <img src="images/food2.jpg" alt="" class="food-img rounded">
+                    </div>
+                   <div class="px-2">
+                        <div class="row">
+                            <div class="col-9 fw-bold">
+                                <small>Fufu and Vegi</small>
+                                
+                            </div>
+                            <div class="col-3">
+                                <i class="bi bi-suit-heart w-100 h-100"></i>
+                            </div>
+                        </div>
+                        <div class="fw-bold text-main">
+                            Forks
+                        </div>
+                        <div class="row">
+                            <div class="col-6 d-flex align-items-center pl-5 h2"><i class="bi bi-chat"></i></div>
+                            <div class="col-6"><button class="btn btn-sm btn-success" href="food/index.html">Order</button></div>
+                        </div>
+                   </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-6 my-2 px-3">
+                <a href="food/" class="text-decoration-none text-dark row">
+                    <div class="card shadow pt-0 pb-3 px-1">
+                        <div class="rounded w-100 h-100">
+                            <img src="images/food3.jpeg" alt="" class="food-img rounded">
+                        </div>
+                    <div class="px-2">
+                            <div class="row">
+                                <div class="col-9 fw-bold">
+                                    <small>Fufu and eru</small>
+                                    
+                                </div>
+                                <div class="col-3">
+                                    <i class="bi bi-suit-heart w-100 h-100"></i>
+                                </div>
+                            </div>
+                            <div class="fw-bold text-main">
+                                G & G
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class=" d-flex align-items-center pl-5 h2"><i class="bi bi-chat"></i></div>
+                                <div class=""><button class="btn btn-sm btn-success" href="food/index.html">Order</button></div>
+                            </div>
+                    </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 my-2 px-3">
+                <a href="food/" class="text-decoration-none text-dark row">
+                    <div class="card shadow pt-0 pb-3 px-1">
+                        <div class="rounded w-100 h-100">
+                            <img src="images/food4.jpeg" alt="" class="food-img rounded">
+                        </div>
+                    <div class="px-2">
+                            <div class="row">
+                                <div class="col-9 fw-bold">
+                                    <small>Fried Rice</small>
+                                    
+                                </div>
+                                <div class="col-3">
+                                    <i class="bi bi-suit-heart w-100 h-100"></i>
+                                </div>
+                            </div>
+                            <div class="fw-bold text-main">
+                                Njieforbi
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class=" d-flex align-items-center pl-5 h2"><i class="bi bi-chat"></i></div>
+                                <div class=""><button class="btn btn-sm btn-success" href="food/index.html">Order</button></div>
+                            </div>
+                    </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 my-2 px-3">
+                <a href="food/" class="text-decoration-none text-dark row">
+                    <div class="card shadow pt-0 pb-3 px-1">
+                        <div class="rounded w-100 h-100">
+                            <img src="images/food5.jpg" alt="" class="food-img rounded">
+                        </div>
+                    <div class="px-2">
+                            <div class="row">
+                                <div class="col-9 fw-bold">
+                                    <small>Rice and Stew</small>
+                                    
+                                </div>
+                                <div class="col-3">
+                                    <i class="bi bi-suit-heart w-100 h-100"></i>
+                                </div>
+                            </div>
+                            <div class="fw-bold text-main">
+                                Berjuit
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class=" d-flex align-items-center pl-5 h2"><i class="bi bi-chat"></i></div>
+                                <div class=""><button class="btn btn-sm btn-success" href="food/index.html">Order</button></div>
+                            </div>
+                    </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 my-2 px-3">
+                <a href="food/" class="text-decoration-none text-dark row">
+                    <div class="card shadow pt-0 pb-3 px-1">
+                        <div class="rounded w-100 h-100">
+                            <img src="images/food6.jpeg " alt="" class="food-img rounded">
+                        </div>
+                    <div class="px-2">
+                            <div class="row">
+                                <div class="col-9 fw-bold">
+                                    <small>Achu</small>
+                                    
+                                </div>
+                                <div class="col-3">
+                                    <i class="bi bi-suit-heart w-100 h-100"></i>
+                                </div>
+                            </div>
+                            <div class="fw-bold text-main">
+                                G & G
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class=" d-flex align-items-center pl-5 h2"><i class="bi bi-chat"></i></div>
+                                <div class=""><button class="btn btn-sm btn-success" href="food/index.html">Order</button></div>
+                            </div>
+                    </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="tools/bootstrapjquery.js"></script>
+    <script src="tools/bootstrap.bundle.js"></script>
+    <script src="script/jquery-3.6.1.js"></script>
+    <script src="tools/bootstrap-icons/bootstrap-icons.json"></script>
+</body>
+</html>
